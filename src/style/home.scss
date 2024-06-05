@@ -3,18 +3,21 @@ header{
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+  height: 100dvb;
 }
 
 .title_image_header{
   display: flex;
   flex-direction: row;
-  gap: 5%;
+  
  
 }
 
 .header-buttons{
   display: flex;
-  gap: 3%;
+  gap: 8%;
+  height: 60px;
+  width: 360px;
 
 .header_button {
   display: flex;
@@ -26,7 +29,7 @@ header{
   padding: 10px ;
   font-size: 16px;
   color: #fff;
-  background: linear-gradient(to right, #575EFF 50%,#1e1e1e 50%);
+  background: linear-gradient(to right, #575EFF 50%,#051324 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   border: solid 1px var(--secondary);
@@ -45,13 +48,89 @@ header{
 }
 }
 
-.skills_container{
+.section_container{
+display: flex;
+flex-direction: column;
+
+.title_section{
+  padding: 0px 30px 30px 0px
+}
 
 .line{
-width: 70vw;
+width: 20vw;
 background: #575EFF;
 border: 3px solid #575EFF;
 
 }
 margin-top: 80px;
+
+.content_skills{
+margin: 0px 30px 30px 0px;
+display: flex;
+place-items: center;
+gap: 50px;
+}
+
+.title_skills{
+  width: 300px;
+}
+
+.skills_images{
+  display: flex;
+gap: 50px;
+}
+}
+
+// Projets//
+
+.projet_container{
+width: 80vw;
+margin: 25px 0px 25px 0px;
+  
+  .image_projet{
+    width: 80vw;
+    height: 300px;
+    background: url("/public/seelies.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
+
+    
+  
+  }
+
+  .détails_projet{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+
+  .résumé{
+    width: 50%;
+  }
+
+  .stack_projet{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+  .logo_stack{
+    width: 65px;
+    padding: 5px;
+  }
+  }
+}
+
+.image_projet2{
+  width: 80vw;
+  height: 300px;
+  background: url("/public/GENKO.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  margin-top: 20px;
+  box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
 }

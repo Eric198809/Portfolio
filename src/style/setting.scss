@@ -2,8 +2,7 @@
   //  Colors //
   --primary: #051324;
   --texte: #f8fbff;
-  --secondary: #575EFF;
- 
+  --secondary: #575eff;
 }
 
 * {
@@ -15,21 +14,26 @@
 body {
   background: var(--primary);
   color: var(--texte);
-  font-family: jost,sans-serif;
+  font-family: jost, sans-serif;
   padding-left: 3%;
   padding-right: 3%;
-  h1{
+  h1 {
     font-size: 6rem;
   }
 
-  h2{
+  h2 {
     font-size: 3rem;
   }
 
-  h3{
+  h3 {
     font-size: 2.25rem;
   }
+  h4 {
+    font-size: 1.7rem;
+  }
 
-  a{text-decoration: none;
-  color: #f8fbff;}
+  a {
+    text-decoration: none;
+    color: #f8fbff;
+  }
 }
