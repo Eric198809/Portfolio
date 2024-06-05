@@ -1,0 +1,57 @@
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.title_image_header{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+ 
+}
+
+.header-buttons{
+  display: flex;
+  gap: 3%;
+
+.header_button {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 170px;
+  gap: 10px;
+  position: relative;
+  padding: 10px ;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(to right, #575EFF 50%,#1e1e1e 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: solid 1px var(--secondary);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.header_button:hover {
+  background-position: left bottom;
+  color: #fff;
+}
+
+.header_button:focus {
+  outline: none;
+}
+}
+
+.skills_container{
+
+.line{
+width: 70vw;
+background: #575EFF;
+border: 3px solid #575EFF;
+
+}
+margin-top: 80px;
+}
