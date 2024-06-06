@@ -65,10 +65,19 @@ border: 3px solid #575EFF;
 margin-top: 80px;
 
 .content_skills{
-margin: 0px 30px 30px 0px;
-display: flex;
-place-items: center;
-gap: 50px;
+  PADDING: 30px 10px 30px 10px;
+  display: flex;
+  place-items: center;
+  gap: 50px;
+  BORDER: SOLID 1px #575EFF;
+  border-radius: 50px;
+  MARGIN: 20PX;
+  transition: all 0.3s ease-in;
+  height: 100px;
+
+  &:hover{
+    transform: scale(1.05);
+  }
 }
 
 .title_skills{
@@ -89,12 +98,13 @@ margin: 25px 0px 25px 0px;
   
   .image_projet{
     width: 80vw;
-    height: 300px;
+    height: 200px;
     background: url("/public/seelies.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
     margin-top: 20px;
+    margin-bottom: 20px;
     box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
 
     
@@ -126,11 +136,12 @@ margin: 25px 0px 25px 0px;
 
 .image_projet2{
   width: 80vw;
-  height: 300px;
+  height: 200px;
   background: url("/public/GENKO.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
   margin-top: 20px;
+  margin-bottom: 20px;
   box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
 }
