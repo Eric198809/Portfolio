@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px var(--secondary);
+  padding: 30px;
+  place-items: center;
+  margin-top: 5%;
+
+  .footer_containter{
+    display: flex;
+    gap: 20px;
+  }
+
+ .footer_title{
+  padding-top: 15px;
+  margin-bottom: 15px;
+ }
+ 
+}
+
+.contact_footer{
+  display: flex;
+  gap: 10px;
+}
