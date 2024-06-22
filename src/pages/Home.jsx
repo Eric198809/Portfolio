@@ -1,4 +1,4 @@
-import imageheader from "../assets/image_header.svg";
+import Navbar from "../components/Navbar";
 import logoLinkedin from "../assets/linkedin.svg";
 import logoGithub from "../assets/github.svg";
 import logoJavascript from "../assets/javascript.svg";
@@ -15,16 +15,20 @@ import logoGit from "../assets/git.svg";
 import logoGithub2 from "../assets/github2.svg";
 import logoReact from "../assets/react.svg";
 import logoWorld from "../assets/siteprojet.svg";
-
 import arrowUp from "../assets/arrowup.svg";
-
-
 import "../style/home.scss";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 function Home() {
+  const sectionSkills = useRef(null);
+  const sectionProjets = useRef(null);
+  const sectionContact = useRef(null);
   const wordsDescription = ["React", "Javascript", "Node JS", "Fullstack"];
   const [currentWord, setCurrentWord] = useState("");
+
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -45,12 +49,19 @@ function Home() {
 
   return (
     <>
+      <nav>
+        <Navbar
+          scrollToSection={scrollToSection}
+          sectionSkills={sectionSkills}
+          sectionProjets={sectionProjets}
+          sectionContact={sectionContact}
+        />
+      </nav>
       <header>
         <div className="arrow_up" onClick={scrollToTop}>
           <img src={arrowUp} alt="" />
         </div>
         <div className="header-container">
-          <p>Bonjour, je m'appelle </p>
           <h1 className="header_title">
             Eric Besson <br />
             Développeur web {currentWord}
@@ -76,7 +87,7 @@ function Home() {
           </a>
         </div>
       </header>
-      <section className="section_container">
+      <section className="section_container" ref={sectionSkills}>
         <div className="title_section">
           <h2>COMPETENCES</h2>
           <div className="line"></div>
@@ -147,7 +158,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="section_container">
+      <section className="section_container" ref={sectionProjets}>
         <div className="title_section">
           <h2>PROJETS</h2>
           <div className="line"></div>
@@ -262,6 +273,7 @@ function Home() {
           <div className="image_projet3"></div>
         </div>
       </section>
+      <span ref={sectionContact}></span>
     </>
   );
 }
