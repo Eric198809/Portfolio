@@ -18,3 +18,15 @@
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: flex;
+    justify-content: center;
+
+    .header {
+      border: 1px solid;
+      border-radius: 30px;
+    }
+  }
+}
