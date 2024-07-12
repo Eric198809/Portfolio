@@ -16,6 +16,7 @@ import logoGithub2 from "../assets/github2.svg";
 import logoReact from "../assets/react.svg";
 import logoWorld from "../assets/siteprojet.svg";
 import arrowUp from "../assets/arrowup.svg";
+import EricPortrait from "../assets/PortraitEric.jpg";
 import "../style/home.scss";
 import { useState, useEffect, useRef } from "react";
 
@@ -87,74 +88,120 @@ function Home() {
           </a>
         </div>
       </header>
+
+      <section className="section_container">
+        <div className="title_section">
+          <h2>A PROPOS </h2>
+          <div className="line"></div>
+        </div>
+        <div className="about_container">
+          <img src={EricPortrait} alt="portrait Eric Besson" />
+          <p>
+            Je m'appelle Eric, j'ai 35 ans et je suis développeur junior. J'ai
+            découvert le monde du web et de la programmation en 2022. <br />
+            <br />
+            Après plus de 10 ans d'éxpérience dans le domaine du
+            commerce/marketing j'ai décidé de changer de voie et de me
+            reconvertir professionnellement et de faire de ma passion ma
+            profession. <br />
+            <br />
+            J'ai débuté mon apprentissage de manière autonome puis en novembre
+            2023 j'ai débuté une formation de{" "}
+            <strong> "Développeur web / web mobile</strong> qui m'a permis de
+            monter en compétence à la fois sur du développement Front-end et
+            Back-end. <br />
+            <br />
+            Le front end, la vitrine du développement, me plaît car je prends un
+            réel plaisir à créer, reproduire, intégrer des interfaces. Je vois
+            en cette partie visible et design, une forme d'art.
+          </p>
+        </div>
+      </section>
       <section className="section_container" ref={sectionSkills}>
         <div className="title_section">
           <h2>COMPETENCES</h2>
           <div className="line"></div>
         </div>
-        <div className="skill_container">
-          <h3 className="title_skill">FRONT-END</h3>
-          <div className="skill_image">
-            <img src={logoReact} alt="react" />
-            <p>React</p>
+        <div className="skills-container">
+          <div className="skill_container">
+            <h3 className="title_skill">DEVELOPPEMENT</h3>
+            <h4>FRONT-END</h4>
+            <div className="skill_images">
+              <div className="skill_image">
+                <img src={logoReact} alt="react" />
+                <p>React</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoJavascript} alt="logo javascript" />
+                <p>Javascript</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoSass} alt="logo sass" />
+                <p>Sass</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoHtml} alt="logo html" />
+                <p>HTML</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoCss} alt="logo css" />
+                <p>CSS</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoWordpress} alt="logo wordpress" />
+                <p>Wordpress</p>
+              </div>
+            </div>
+            <h4>BACK-END</h4>
+            <div className="skill_images">
+              <div className="skill_image">
+                <img src={logoNode} alt="logo Node" />
+                <p>NodeJS</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoExpress} alt="logo Express" />
+                <p>Express</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoSql} alt="logo SQL" />
+                <p>SQL</p>
+              </div>
+            </div>
           </div>
-          <div className="skill_image">
-            <img src={logoJavascript} alt="react" />
-            <p>Javascript</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoSass} alt="react" />
-            <p>Sass</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoHtml} alt="react" />
-            <p>HTML</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoCss} alt="react" />
-            <p>CSS</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoWordpress} alt="react" />
-            <p>Wordpress</p>
-          </div>
-        </div>
-        <div className="skill_container">
-          <h3 className="title_skill">BACK-END</h3>
-          <div className="skill_image">
-            <img src={logoNode} alt="react" />
-            <p>Node JS</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoExpress} alt="react" />
-            <p>Express</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoSql} alt="react" />
-            <p>SQL</p>
-          </div>
-        </div>
-        <div className="skill_container">
-          <h3 className="title_skill">DESIGN</h3>
-          <div className="skill_image">
-            <img src={logoFigma} alt="react" />
-            <p>Figma</p>
-          </div>
-        </div>
-        <div className="skill_container">
-          <h3 className="title_skill">OUTILS</h3>
 
-          <div className="skill_image">
-            <img src={logoTrello} alt="react" />
-            <p>Trello</p>
+          <div className="skill_container">
+            <h3 className="title_skill">GESTION DE PROJET</h3>
+            <div className="skill_images">
+              <div className="skill_image">
+                <img src={logoGit} alt="logo git" />
+                <p>Git</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoGithub2} alt="logo github" />
+                <p>Github</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoFigma} alt="logo figma" />
+                <p>Figma</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoTrello} alt="logo trello" />
+                <p>Trello</p>
+              </div>
+            </div>
           </div>
-          <div className="skill_image">
-            <img src={logoGit} alt="react" />
-            <p>Git</p>
-          </div>
-          <div className="skill_image">
-            <img src={logoGithub2} alt="react" />
-            <p>Github</p>
+          <div className="skill_container">
+            <h3 className="title_skill">OUTILS</h3>
+            <div className="skill_images">
+              <div className="skill_image">
+                <img src={logoGit} alt="logo git" />
+                <p>Postman</p>
+              </div>
+              <div className="skill_image">
+                <img src={logoGithub2} alt="logo github" />
+                <p>MySQL Workbench</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
