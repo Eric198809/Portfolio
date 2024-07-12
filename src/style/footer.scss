@@ -6,19 +6,26 @@ footer {
   place-items: center;
   margin-top: 5%;
 
-  .footer_containter{
+  .footer_containter {
     display: flex;
     gap: 20px;
   }
 
- .footer_title{
-  padding-top: 15px;
-  margin-bottom: 15px;
- }
- 
+  .footer_title {
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
-.contact_footer{
+.contact_footer {
   display: flex;
   gap: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer_containter {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
 }

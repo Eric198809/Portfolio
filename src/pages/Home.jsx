@@ -111,9 +111,7 @@ function Home() {
             monter en compétence à la fois sur du développement Front-end et
             Back-end. <br />
             <br />
-            Le front end, la vitrine du développement, me plaît car je prends un
-            réel plaisir à créer, reproduire, intégrer des interfaces. Je vois
-            en cette partie visible et design, une forme d'art.
+            Aujourd'hui j'aime imaginer, créer , apprendre sans cesse de nouvelles choses et me lancer dans de nouveaux projets plus passionnants les uns que les autres.
           </p>
         </div>
       </section>
