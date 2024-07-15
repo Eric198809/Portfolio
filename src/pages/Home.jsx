@@ -26,7 +26,14 @@ function Home() {
   const sectionSkills = useRef(null);
   const sectionProjets = useRef(null);
   const sectionContact = useRef(null);
-  const wordsDescription = ["React", "JS", "Node JS", "Front", "Back", "Fullstack"];
+  const wordsDescription = [
+    "React",
+    "JS",
+    "Node JS",
+    "Front",
+    "Back",
+    "Fullstack",
+  ];
   const [currentWord, setCurrentWord] = useState("");
 
   const scrollToSection = (ref) => {
@@ -113,7 +120,9 @@ function Home() {
             monter en compétence à la fois sur du développement Front-end et
             Back-end. <br />
             <br />
-            Aujourd'hui j'aime imaginer, créer , apprendre sans cesse de nouvelles choses et me lancer dans de nouveaux projets plus passionnants les uns que les autres.
+            Aujourd'hui j'aime imaginer, créer , apprendre sans cesse de
+            nouvelles choses et me lancer dans de nouveaux projets plus
+            passionnants les uns que les autres.
           </p>
         </div>
       </section>
@@ -215,8 +224,11 @@ function Home() {
             <h3>LE COMPTOIR DES SEELIES</h3>
             <h4>Détails</h4>
             <p>
-              Troisième et dernier projet de ma formation développeur web/web mobile.  <br />
-              Le comptoir des Seelies est un site e-commerce de produits artisanaux commandé par quatre amies afin de faire découvrir leur univers féérique et leurs créations faites mains.
+              Troisième et dernier projet de ma formation développeur web/web
+              mobile. <br />
+              Le comptoir des Seelies est un site e-commerce de produits
+              artisanaux commandé par quatre amies afin de faire découvrir leur
+              univers féérique et leurs créations faites mains.
             </p>
             <h4>Stack</h4>
             <div className="images_stacks">
@@ -243,8 +255,11 @@ function Home() {
             <h3>GENKO</h3>
             <h4>Détails</h4>
             <p>
-              Deuxieme projet mené lors de ma formation Développeur web/web mobile. <br /> Ce petit site permet l'apprentissage du français de façon ludique à travers de petits jeux. <br />
-              L'objectif est de franchir quatre niveaux en accumulant assez de point pour passer au niveau supérieur.
+              Deuxieme projet mené lors de ma formation Développeur web/web
+              mobile. <br /> Ce petit site permet l'apprentissage du français de
+              façon ludique à travers de petits jeux. <br />
+              L'objectif est de franchir quatre niveaux en accumulant assez de
+              point pour passer au niveau supérieur.
             </p>
             <h4>Stack</h4>
             <div className="images_stacks">
@@ -276,8 +291,11 @@ function Home() {
             <h3>QUE L'AMOUR SOIT AVEC TOI</h3>
             <h4>Détails</h4>
             <p>
-              Projet mené en groupe dans le cadre d'un hackathon de deux jours. <br />
-              Choissez votre personnage et essayez de trouver l'amour lors d'un jobdating en répondant correctement aux questions de votre prétentent(e)
+              Projet mené en groupe dans le cadre d'un hackathon de deux jours.{" "}
+              <br />
+              Choissez votre personnage et essayez de trouver l'amour lors d'un
+              speed dating en répondant correctement aux questions de votre
+              prétentent(e)
             </p>
             <h4>Stack</h4>
             <div className="images_stacks">
