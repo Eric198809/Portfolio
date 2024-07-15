@@ -24,7 +24,7 @@ function Home() {
   const sectionSkills = useRef(null);
   const sectionProjets = useRef(null);
   const sectionContact = useRef(null);
-  const wordsDescription = ["React", "Javascript", "Node JS", "Fullstack"];
+  const wordsDescription = ["React", "JS", "Node JS", "Front", "Back", "Fullstack"];
   const [currentWord, setCurrentWord] = useState("");
 
   const scrollToSection = (ref) => {
@@ -213,13 +213,8 @@ function Home() {
             <h3>LE COMPTOIR DES SEELIES</h3>
             <h4>Détails</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
-              aperiam, nostrum ratione voluptas debitis saepe odit, omnis
-              dolorum nihil, iste nam impedit vel quisquam! Consequuntur rem
-              magni delectus nisi cum. Iusto voluptatem asperiores itaque
-              reiciendis enim sunt impedit modi maiores voluptatibus quo, dicta
-              dolor cumque distinctio nisi quos fuga recusandae perferendis odit
-              consequatur soluta qui nemo officia tempore aliquam. Porro.
+              Troisième et dernier projet de ma formation développeur web/web mobile.  <br />
+              Le comptoir des Seelies est un site e-commerce de produits artisanaux commandé par quatre amies afin de faire découvrir leur univers féérique et leurs créations faites mains.
             </p>
             <h4>Stack</h4>
             <div className="images_stacks">
@@ -246,13 +241,8 @@ function Home() {
             <h3>GENKO</h3>
             <h4>Détails</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
-              aperiam, nostrum ratione voluptas debitis saepe odit, omnis
-              dolorum nihil, iste nam impedit vel quisquam! Consequuntur rem
-              magni delectus nisi cum. Iusto voluptatem asperiores itaque
-              reiciendis enim sunt impedit modi maiores voluptatibus quo, dicta
-              dolor cumque distinctio nisi quos fuga recusandae perferendis odit
-              consequatur soluta qui nemo officia tempore aliquam. Porro.
+              Deuxieme projet mené lors de ma formation Développeur web/web mobile. <br /> Ce petit site permet l'apprentissage du français de façon ludique à travers de petits jeux. <br />
+              L'objectif est de franchir quatre niveaux en accumulant assez de point pour passer au niveau supérieur.
             </p>
             <h4>Stack</h4>
             <div className="images_stacks">
@@ -284,13 +274,8 @@ function Home() {
             <h3>QUE L'AMOUR SOIT AVEC TOI</h3>
             <h4>Détails</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
-              aperiam, nostrum ratione voluptas debitis saepe odit, omnis
-              dolorum nihil, iste nam impedit vel quisquam! Consequuntur rem
-              magni delectus nisi cum. Iusto voluptatem asperiores itaque
-              reiciendis enim sunt impedit modi maiores voluptatibus quo, dicta
-              dolor cumque distinctio nisi quos fuga recusandae perferendis odit
-              consequatur soluta qui nemo officia tempore aliquam. Porro.
+              Projet mené en groupe dans le cadre d'un hackathon de deux jours. <br />
+              Choissez votre personnage et essayez de trouver l'amour lors d'un jobdating en répondant correctement aux questions de votre prétentent(e)
             </p>
             <h4>Stack</h4>
             <div className="images_stacks">
