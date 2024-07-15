@@ -12,7 +12,9 @@ import logoSql from "../assets/sql.svg";
 import logoTrello from "../assets/trello.svg";
 import logoFigma from "../assets/figma.svg";
 import logoGit from "../assets/git.svg";
+import postman from "../assets/postman.svg";
 import logoGithub2 from "../assets/github2.svg";
+import mysqlWorkbench from "../assets/mysqlworkbench.svg";
 import logoReact from "../assets/react.svg";
 import logoWorld from "../assets/siteprojet.svg";
 import arrowUp from "../assets/arrowup.svg";
@@ -192,12 +194,12 @@ function Home() {
             <h3 className="title_skill">OUTILS</h3>
             <div className="skill_images">
               <div className="skill_image">
-                <img src={logoGit} alt="logo git" />
+                <img src={postman} alt="logo postman" />
                 <p>Postman</p>
               </div>
               <div className="skill_image">
-                <img src={logoGithub2} alt="logo github" />
-                <p>MySQL Workbench</p>
+                <img src={mysqlWorkbench} alt="logo mysqlworkbench" />
+                <p>Workbench</p>
               </div>
             </div>
           </div>
