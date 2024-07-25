@@ -168,6 +168,18 @@ section {
   margin-bottom: 20px;
   box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
 }
+.image_projet4 {
+  width: 40%;
+  height: 400px;
+  background: url("/public/cineapp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
+}
 
 .skills-container {
   display: flex;
@@ -281,6 +293,9 @@ section {
       width: 100%;
     }
     .image_projet3 {
+      width: 100%;
+    }
+    .image_projet4 {
       width: 100%;
     }
   }

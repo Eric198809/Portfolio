@@ -322,6 +322,41 @@ function Home() {
           </div>
           <div className="image_projet3"></div>
         </div>
+        <div className="projets_container">
+          <div className="content-projet">
+            <h3>CINE APP REACT</h3>
+            <h4>Détails</h4>
+            <p>
+              Cette petite app ciné vous permet de rechercher des films parmi
+              une largue biblothèque et de sélectionner vos films coup de coeur.
+              <br /> Pour se projet j'ai fait appel à une API afin d'avoir un
+              catalogue à jour.
+            </p>
+            <h4>Stack</h4>
+            <div className="images_stacks">
+              <img className="logo_stack" src={logoReact} alt="react" />
+              <img className="logo_stack" src={logoSass} alt="css" />
+              <img className="logo_stack" src={logoNode} alt="node" />
+            </div>
+            <div className="header-buttons">
+              <a
+                href="https://github.com/Eric198809/Cin--app-React"
+                className="header_button"
+              >
+                Voir le Github
+                <img src={logoGithub} alt="logo Github" />
+              </a>
+              <a
+                href="https://cine-app-react.netlify.app/"
+                className="header_button"
+              >
+                Voir le site
+                <img src={logoWorld} alt="logo world" />
+              </a>
+            </div>
+          </div>
+          <div className="image_projet4"></div>
+        </div>
       </section>
       <span ref={sectionContact}></span>
     </>
