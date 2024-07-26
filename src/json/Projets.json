@@ -33,6 +33,15 @@
     "image": "cineapp.jpg",
     "githubLink": "https://github.com/Eric198809/Cin--app-React",
     "website": "https://cine-app-react.netlify.app/"
+  },
+  {
+    "id": 5,
+    "titre": "COUNTRIES APP REACT",
+    "content": "Cette petite app ciné vous permet d'obtenir des informations sur les différents pas du monde. Il vous suffit de rechercher un pays pour connaitre la capitale, la population...",
+    "imageStack": ["react.svg", "node.svg", "sass.svg"],
+    "image": "countriesapp.jpg",
+    "githubLink": "https://github.com/Eric198809/Countries-react-project",
+    "website": "https://countries-react-appli.netlify.app/"
   }
 ]
 
