@@ -25,10 +25,10 @@ const ProjetCard = ({ projet }) => {
               Voir le Github
               <img src={logoGithub} alt="logo Github" />
             </a>
-            <a href={projet.website} className="header_button">
+           { projet.website && <a href={projet.website} className="header_button">
               Voir le site
               <img src={logoWorld} alt="logo world" />
-            </a>
+            </a>}
           </div>
         </div>
         <img className="image_projet" src={projet.image} />
