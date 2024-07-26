@@ -112,7 +112,7 @@ section {
 .projets_container {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 8%;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -131,55 +131,15 @@ section {
 }
 
 .image_projet {
-  width: 40%;
-  height: 400px;
-  background: url("/public/seelies.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 25%;
+  height: 350px;
   border-radius: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
 }
 
-.image_projet2 {
-  width: 40%;
-  height: 400px;
-  background: url("/public/genko.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
-}
 
-.image_projet3 {
-  width: 40%;
-  height: 400px;
-  background: url("/public/que l'amour soit avec toi.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
-}
-.image_projet4 {
-  width: 40%;
-  height: 400px;
-  background: url("/public/cineapp.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
-}
 
 .skills-container {
   display: flex;
