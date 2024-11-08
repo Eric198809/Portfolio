@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "titre": "LE COMPTOIR DES SEELIES",
+    "content": "Troisième et dernier projet de ma formation développeur web/web mobile. Le comptoir des Seelies est un site e-commerce de produits artisanaux commandé par quatre amies afin de faire découvrir leur univers féérique et leurs créations faites mains.",
+    "imageStack": ["/react.svg", "/node.svg", "/sass.svg", "/express.svg","/sql.svg"],
+    "image": "/seelies.png",
+    "githubLink": "https://github.com/WildCodeSchool/11-2023-Rem-FR-Crew-Bleu-LaPromodoro-G2-P3/"
+  },
+  {
+    "id": 2,
+    "titre": "GENKO",
+    "content": "Deuxième projet mené lors de ma formation Développeur web/web mobile. Ce petit site permet l'apprentissage du français de façon ludique à travers de petits jeux. L'objectif est de franchir quatre niveaux en accumulant assez de points pour passer au niveau supérieur.",
+    "imageStack": ["/react.svg", "/node.svg", "/css.svg"],
+    "image": "/Genko.jpg",
+    "githubLink": "https://github.com/WildCodeSchool/11-2023-Rem-FR-Crew-Bleu-LaPromodoro-G4",
+    "website": "https://main--chipper-youtiao-cca0a4.netlify.app/"
+  },
+  {
+    "id": 3,
+    "titre": "QUE L'AMOUR SOIT AVEC TOI",
+    "content": "Projet mené en groupe dans le cadre d'un hackathon de deux jours. Choisissez votre personnage et essayez de trouver l'amour lors d'un speed dating en répondant correctement aux questions de votre prétendant(e).",
+    "imageStack": ["/react.svg", "/node.svg", "/css.svg"],
+    "image": "/que l'amour soit avec toi.jpg",
+    "githubLink": "https://github.com/Eric198809/hackathon",
+    "website": "https://paul-lac.github.io/QueLAmourSoitAvecToi/"
+  },
+  {
+    "id": 4,
+    "titre": "CINE APP REACT",
+    "content": "Cette petite app ciné vous permet de rechercher des films parmi une large bibliothèque et de sélectionner vos films coup de coeur. Pour ce projet, j'ai fait appel à une API afin d'avoir un catalogue à jour.",
+    "imageStack": ["react.svg", "node.svg", "sass.svg"],
+    "image": "cineapp.jpg",
+    "githubLink": "https://github.com/Eric198809/Cin--app-React",
+    "website": "https://cine-app-react.netlify.app/"
+  },
+  {
+    "id": 5,
+    "titre": "COUNTRIES APP REACT",
+    "content": "Cette petite app ciné vous permet d'obtenir des informations sur les différents pas du monde. Il vous suffit de rechercher un pays pour connaitre la capitale, la population...",
+    "imageStack": ["react.svg", "node.svg", "sass.svg"],
+    "image": "countriesapp.jpg",
+    "githubLink": "https://github.com/Eric198809/Countries-react-project",
+    "website": "https://countries-react-appli.netlify.app/"
+  }
+]
+
