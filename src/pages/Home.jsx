@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import arrowUp from "../assets/arrowup.svg";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Projets from "../components/Projets";
 import Header from "../components/Header";
 import About from "../components/About";
@@ -12,6 +12,9 @@ function Home() {
   const sectionProjets = useRef(null);
   const sectionContact = useRef(null);
 
+ 
+  
+
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -22,6 +25,9 @@ function Home() {
       behavior: "smooth",
     });
   };
+
+
+
   return (
     <>
       <nav>
