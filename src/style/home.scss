@@ -26,6 +26,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 
 .header-buttons {
@@ -70,7 +71,7 @@ section {
 
   img {
     height: 500px;
-    border-radius: 15px;
+    border-radius: 10px;
     opacity: 0.9;
   }
 
@@ -109,6 +110,23 @@ section {
 }
 
 // Projets//
+
+.container_projets_menu{
+  width: 100vw;
+ 
+ ul{
+  list-style: none;
+  display: flex;
+  gap: 30px
+ }
+
+ li{
+  border: solid 1px var(--secondary);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+ }
+}
 
 .projets_container {
   display: flex;
