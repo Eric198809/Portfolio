@@ -12,9 +12,6 @@ function Home() {
   const sectionProjets = useRef(null);
   const sectionContact = useRef(null);
 
- 
-  
-
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -25,8 +22,6 @@ function Home() {
       behavior: "smooth",
     });
   };
-
-
 
   return (
     <>
