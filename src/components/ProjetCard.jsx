@@ -1,5 +1,6 @@
 import logoGithub from "../assets/github.svg";
 import logoWorld from "../assets/siteprojet.svg";
+import "../style/ProjetCards.scss";
 
 const ProjetCard = ({ projet }) => {
   return (
@@ -25,10 +26,12 @@ const ProjetCard = ({ projet }) => {
               Voir le Github
               <img src={logoGithub} alt="logo Github" />
             </a>
-           { projet.website && <a href={projet.website} className="header_button">
-              Voir le site
-              <img src={logoWorld} alt="logo world" />
-            </a>}
+            {projet.website && (
+              <a href={projet.website} className="header_button">
+                Voir le site
+                <img src={logoWorld} alt="logo world" />
+              </a>
+            )}
           </div>
         </div>
         <img className="image_projet" src={projet.image} />

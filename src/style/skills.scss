@@ -1,0 +1,24 @@
+.title_skill {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.skills_images {
+  display: flex;
+  gap: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .skills-container {
+    display: block;
+
+    .skill_container {
+      width: 100%;
+    }
+
+    img {
+      width: 55px;
+    }
+  }
+}
