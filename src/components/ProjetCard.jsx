@@ -1,6 +1,6 @@
 import logoGithub from "../assets/github.svg";
 import logoWorld from "../assets/siteprojet.svg";
-import "../style/ProjetCards.scss";
+import "../style/projetCards.scss";
 
 const ProjetCard = ({ projet }) => {
   return (
