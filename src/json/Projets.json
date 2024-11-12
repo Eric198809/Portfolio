@@ -40,7 +40,7 @@
   },
   {
     "id": 5,
-    "categorie": "Javascript",
+    "categorie": "React",
     "titre": "COUNTRIES APP REACT",
     "content": "Cette petite app ciné vous permet d'obtenir des informations sur les différents pas du monde. Il vous suffit de rechercher un pays pour connaitre la capitale, la population...",
     "imageStack": ["react.svg", "node.svg", "sass.svg"],
