@@ -47,6 +47,16 @@
     "image": "countriesapp.jpg",
     "githubLink": "https://github.com/Eric198809/Countries-react-project",
     "website": "https://countries-react-appli.netlify.app/"
+  },
+  {
+    "id": 6,
+    "categorie": "React",
+    "titre": "To Do List REACT",
+    "content": "Cette To Do List vous permet d'ajouter des taches, les modifier, les supprimer et les valider.",
+    "imageStack": ["react.svg", "node.svg", "/css.svg"],
+    "image": "TodoListReact.jpg",
+    "githubLink": "https://github.com/Eric198809/To-do-List-React",
+    "website": "https://to-do-list-react-eric.netlify.app/"
   }
 ]
 
