@@ -34,7 +34,9 @@ const ProjetCard = ({ projet }) => {
             )}
           </div>
         </div>
+        <div className="image-projet-container">
         <img className="image_projet" src={projet.image} />
+        </div>
       </div>
     </div>
   );
