@@ -55,6 +55,7 @@ function Home() {
       </section>
       <span ref={sectionContact}></span>
     </>
+    
   );
 }
 export default Home;

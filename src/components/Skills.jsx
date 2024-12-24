@@ -36,6 +36,10 @@ const Skills = () => {
               <p>Javascript</p>
             </div>
             <div className="skill_image">
+              <img src="typescript.svg"alt="logo javascript" />
+              <p>TypeScript</p>
+            </div>
+            <div className="skill_image">
               <img src={logoSass} alt="logo sass" />
               <p>Sass</p>
             </div>

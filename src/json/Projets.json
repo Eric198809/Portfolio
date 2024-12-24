@@ -57,6 +57,16 @@
     "image": "TodoListReact.jpg",
     "githubLink": "https://github.com/Eric198809/To-do-List-React",
     "website": "https://to-do-list-react-eric.netlify.app/"
+  },
+  {
+    "id": 7,
+    "categorie": "TypeScript",
+    "titre": "Jeu Morpion",
+    "content": "Jeu de morpion en TypeScript.",
+    "imageStack": ["typescript.svg", "node.svg", "/css.svg"],
+    "image": "morpion-tsx.jpg",
+    "githubLink": "https://github.com/Eric198809/Morpion",
+    "website": "https://morpion-tsx.netlify.app/"
   }
 ]
 
