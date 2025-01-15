@@ -11,6 +11,7 @@ const About = () => {
       </div>
       <div className="about_container">
         <img src={EricPortrait2} alt="portrait Eric Besson" />
+        
         <p>
           Je m'appelle Eric, j'ai 35 ans et je suis développeur junior. J'ai
           découvert le monde du web et de la programmation en 2022. <br />

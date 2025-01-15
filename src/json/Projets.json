@@ -67,6 +67,16 @@
     "image": "morpion-tsx.jpg",
     "githubLink": "https://github.com/Eric198809/Morpion",
     "website": "https://morpion-tsx.netlify.app/"
+  },
+  {
+    "id": 8,
+    "categorie": "React",
+    "titre": "Dashboard Crypto Monnaies",
+    "content": "Tableau de bord permettant de suivre les cours des différentes crypto monnaies.",
+    "imageStack": ["react.svg", "node.svg", "sass.svg"],
+    "image": "crypto-watch.jpg",
+    "githubLink": "https://github.com/Eric198809/Crypto-Dashboard-React",
+    "website": "https://dashboard-crypo.netlify.app/"
   }
 ]
 

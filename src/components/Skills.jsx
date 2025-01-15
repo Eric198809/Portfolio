@@ -13,6 +13,7 @@ import postman from "../assets/postman.svg";
 import logoGithub2 from "../assets/github2.svg";
 import mysqlWorkbench from "../assets/mysqlworkbench.svg";
 import logoReact from "../assets/react.svg";
+import logoPhp from "../assets/php.svg";
 import "../style/skills.scss";
 
 const Skills = () => {
@@ -40,6 +41,10 @@ const Skills = () => {
               <p>TypeScript</p>
             </div>
             <div className="skill_image">
+              <img src={logoPhp}alt="logo php" />
+              <p>PHP</p>
+            </div>
+            <div className="skill_image">
               <img src={logoSass} alt="logo sass" />
               <p>Sass</p>
             </div>
@@ -50,10 +55,6 @@ const Skills = () => {
             <div className="skill_image">
               <img src={logoCss} alt="logo css" />
               <p>CSS</p>
-            </div>
-            <div className="skill_image">
-              <img src={logoWordpress} alt="logo wordpress" />
-              <p>Wordpress</p>
             </div>
           </div>
           <h4>BACK-END</h4>
@@ -104,6 +105,10 @@ const Skills = () => {
             <div className="skill_image">
               <img src={mysqlWorkbench} alt="logo mysqlworkbench" />
               <p>Workbench</p>
+            </div>
+            <div className="skill_image">
+              <img src={logoWordpress} alt="logo wordpress" />
+              <p>Wordpress</p>
             </div>
           </div>
         </div>
